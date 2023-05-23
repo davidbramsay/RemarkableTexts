@@ -36,6 +36,8 @@ Run.py is the main entry point for this code and can/should be daemonized.
 
 You need to set up your Remarkable for ssh using an rsa key.  If you have existing id_rsa and id_rsa.pub in ~/.ssh, you can use: `ssh-copy-id root@10.11.99.1`, otherwise need to generate with `ssh-keygen`.  The default address for the remarkable is 10.11.99.1; you should be able to `ssh root@10.11.99.1` without entering a password once you've set this up.  The initial ssh password to get into the remarkable and set up ssh can be found in Settings>Help>Copyrights.  There are lots of good examples of how to get this working online, check remarkable reverse engineering wiki.
 
+The remarkable also needs its web interface enabled for downloading and syncing documents.  This is part of the 'Settings' menu.
+
 NOTE: the remarkable API included here uses OpenSSH's ControlMaster and ControlPath to manage the SSH connections, which gave me a little trouble initially before I realized how the connection was persisting and added a timeout for unexpected disconnects.  Poke around and read about -M and -S flags before editing the code.
 
 You also need to set up the google vision API for this software to work; install google CLI using
