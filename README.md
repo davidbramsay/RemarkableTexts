@@ -1,5 +1,7 @@
 # Remarkable and Receipt Printer Texting Interface for OS X
 
+To read about this project, check out [this blog post](https://blog.davidbramsay.com/deconvergence/) or [the smartphone free experiment](https://eastcampus.davidbramsay.com) that David is running on himself.
+
 ![how texting works](https://github.com/dramsay9/RemarkableTexts/blob/main/pic1.png?raw=true)
 
 ![an example of what's printed.  May your food arrive in a more timely manner than mine.](https://github.com/dramsay9/RemarkableTexts/blob/main/pic2.png?raw=true)
